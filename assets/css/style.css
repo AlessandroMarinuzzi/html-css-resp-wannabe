@@ -84,10 +84,22 @@ img {
 
   img{
     height: 100px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  h3{
+    margin-bottom: 0;
   }
 
   .row{
-    max-width: 420px;
+    /* max-width: 420px; */
+    width: 100%;
+    margin: 0;
+  }
+
+  .container{
+    padding: 5px;
   }
 
   #lezioni .row>.left,
@@ -100,5 +112,11 @@ img {
   #steps .row>.right{
     width: 100%;
   } 
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    margin-top: 0;
+  }
 
 }
